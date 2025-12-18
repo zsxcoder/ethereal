@@ -43,7 +43,7 @@ export default {
   beian: '',
   beianLink: '',
   // 关于页二维码
-  alipay_qr: 'https://cdn.jsdelivr.net/gh/mcyzsx/picx-images-hosting@master/links/alipay.webp',
+  alipay_qr: 'https://imgbed.mcyzsx.top/file/custom/Vuaj4DpO.jpg',
   // GitHub Issues 配置
   username: 'zsxcoder',
   repository: 'zsxcoder-blog',
