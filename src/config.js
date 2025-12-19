@@ -47,7 +47,7 @@ export default {
   // GitHub Issues 配置
   username: 'zsxcoder',
   repository: 'zsxcoder-blog',
-  friendsRepo: 'ethereal', // 留空则默认使用上方仓库获取
+  friendsRepo: 'ethereal-friends', // 留空则默认使用上方仓库获取
   // 您的信息
   author: '钟神秀',
   email: 'me@mcyzsx.top',
