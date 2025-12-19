@@ -71,6 +71,42 @@ const routes = [
     },
   },
   {
+    path: '/me',
+    name: 'Me',
+    component: () => import('@/views/me/index.vue'),
+    meta: {
+      index: 5,
+      title: '关于',
+    },
+  },
+  {
+    path: '/devices',
+    name: 'Devices',
+    component: () => import('@/views/devices/index.vue'),
+    meta: {
+      index: 6,
+      title: '设备',
+    },
+  },
+  {
+    path: '/chronobox',
+    name: 'Chronobox',
+    component: () => import('@/views/chronobox/index.vue'),
+    meta: {
+      index: 7,
+      title: '时间盒',
+    },
+  },
+  {
+    path: '/albums',
+    name: 'Albums',
+    component: () => import('@/views/albums/index.vue'),
+    meta: {
+      index: 8,
+      title: '相册',
+    },
+  },
+  {
     path: '*',
     redirect: '/',
   },

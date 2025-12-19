@@ -1,0 +1,50 @@
+[
+	{
+		"id": 1,
+		"title": "泽塔奥特曼",
+		"type": "番剧",
+		"status": "看过",
+		"rating": 5,
+		"description": "虽然有不少缺点，但鉴于摆烂的缘故和同行的承托，还是可以的。",
+		"cover": "https://lain.bgm.tv/r/400/pic/cover/l/e6/ba/304573_5LlQ1.jpg",
+		"year": 2020,
+		"tags": ["特摄", "热血", "奥特曼"],
+		"url": "https://chii.in/subject/304573"
+	},
+	{
+		"id": 2,
+		"title": "特利迦奥特曼",
+		"type": "番剧",
+		"status": "看过",
+		"rating": 2,
+		"description": "本来想给一星的，但是看在特将军和迪迦的份上，再给一星。",
+		"cover": "https://lain.bgm.tv/r/400/pic/cover/l/2f/04/333282_mH63K.jpg",
+		"year": 2021,
+		"tags": ["特摄", "热血", "奥特曼"],
+		"url": "https://chii.in/subject/333282"
+	},
+	{
+		"id": 1,
+		"title": "流浪地球",
+		"type": "电影",
+		"status": "看过",
+		"rating": 5,
+		"description": "近年来，科学家们发现太阳急速衰老膨胀，短时间内包括地球在内的整个太阳系都将被太阳所吞没",
+		"cover": "https://cdn.fis.ink/cdn/2025/08/21/68a6db7c39a2a.webp",
+		"year": 2019,
+		"tags": ["奇幻", "冒险", "灾难"],
+		"url": "https://movie.douban.com/subject/26266893/"
+	},
+	{
+		"id": 2,
+		"title": "流浪地球2",
+		"type": "电影",
+		"status": "看过",
+		"rating": 5,
+		"description": "太阳即将毁灭，人类在地球表面建造出巨大的推进器",
+		"cover": "https://cdn.fis.ink/cdn/2025/08/21/68a6da63071e7.webp",
+		"year": 2023,
+		"tags": ["奇幻", "冒险", "灾难"],
+		"url": "https://movie.douban.com/subject/35267208/"
+	}
+]

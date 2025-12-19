@@ -1,15 +1,20 @@
 {  
-  "name": "wallleap",  
-  "short_name": "wallleap",  
-  "theme_color": "#ffffff",  
+  "name": "ZSXの小站",  
+  "short_name": "ZSX小站",  
+  "theme_color": "#409eff",  
   "background_color": "#ffffff",  
   "display": "standalone",  
   "scope": "/",  
   "start_url": "/",  
-  "icons": [{
-    "src": "logo.svg",
-    "sizes": "any",
-    "type": "image/svg+xml",
+  "icons": [{  
+    "src": "logo.jpg",  
+    "sizes": "180x180",  
+    "type": "image/jpeg",  
+    "purpose": "any"  
+  }, {
+    "src": "favicon.ico",
+    "sizes": "16x16 32x32",
+    "type": "image/x-icon",
     "purpose": "any"
-  }]
+  }]  
 }
