@@ -1,0 +1,16 @@
+/* 粒子背景全局样式 */
+#app {
+  position: relative;
+}
+
+/* 确保粒子背景在所有内容之下但在页面背景之上 */
+.particles-canvas {
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  pointer-events: none !important;
+  transition: opacity 1000ms !important;
+  z-index: 99999 !important;
+}

@@ -4,6 +4,7 @@ import Banner from '@/components/banner/index.vue'
 import Search from '@/components/search/index.vue'
 import Copyright from '@/components/copyright/index.vue'
 import BackToTop from '@/components/back_to_top/index.vue'
+import ParticlesBackground from '@/components/ParticlesBackground.vue'
 
 export default {
   name: 'App',
@@ -13,6 +14,7 @@ export default {
     Search,
     Copyright,
     BackToTop,
+    ParticlesBackground,
   },
   data() {
     return {
@@ -54,6 +56,7 @@ export default {
 
 <template>
   <div id="app">
+    <ParticlesBackground />
     <NavBar />
     <Banner v-if="!$route.path.startsWith('/post')" />
     <Search v-if="showSearch" />

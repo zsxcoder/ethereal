@@ -10,6 +10,7 @@ import Message from '@/components/message/index.js'
 import loadingDirective from '@/components/loading/directive.js'
 import App from '@/app.vue'
 import '@/assets/style/global.scss'
+import '@/assets/style/particles-bg.css'
 
 Vue.config.productionTip = false
 Vue.prototype.$config = config
