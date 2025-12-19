@@ -98,15 +98,6 @@ const routes = [
     },
   },
   {
-    path: '/albums',
-    name: 'Albums',
-    component: () => import('@/views/albums/index.vue'),
-    meta: {
-      index: 8,
-      title: '相册',
-    },
-  },
-  {
     path: '*',
     redirect: '/',
   },
