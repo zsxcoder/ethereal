@@ -51,11 +51,11 @@ export default {
   // 您的信息
   author: '钟神秀',
   email: 'me@mcyzsx.top',
-  link: 'https://myblog.mcyzsx.top',
+  link: 'https://myblog.zsxcoder.top',
   github: 'https://github.com/zsxcoder',
   // 友链信息
   name: 'ZSXの小站',
-  url: 'https://myblog.mcyzsx.top',
+  url: 'https://myblog.zsxcoder.top',
   avatar: 'https://imgbed.mcyzsx.top/file/avatar/1765626136745_zsxcoder.jpg',
   desc: '每一段旅行，都有终点~',
   // 文章相关
