@@ -104,9 +104,7 @@ export default {
       })
     },
     
-    getStarRating(rating) {
-      return Array.from({ length: 5 }, (_, i) => i < rating)
-    },
+
     
     getStatusColor(status) {
       switch (status) {
@@ -279,14 +277,7 @@ export default {
                 <!-- 评分 -->
                 <div class="rating">
                   <span class="rating-label">评分:</span>
-                  <div class="stars">
-                    <SvgIcon 
-                      v-for="(filled, index) in getStarRating(item.rating)" 
-                      :key="index"
-                      :name="filled ? 'star' : 'star-outline'" 
-                      :class="['star', { 'filled': filled }]" 
-                    />
-                  </div>
+                  <span class="rating-score">{{ item.rating }}/5</span>
                 </div>
                 
                 <!-- 描述 -->
@@ -565,22 +556,14 @@ export default {
         color: var(--c-text-2);
       }
       
-      .stars {
-        display: flex;
-        gap: 0.125rem;
-        
-        .star {
-          width: 1rem;
-          height: 1rem;
-          
-          &.filled {
-            color: #fbbf24;
-          }
-          
-          &:not(.filled) {
-            color: var(--c-text-3);
-          }
-        }
+      .rating-score {
+        font-size: 0.875rem;
+        font-weight: 600;
+        color: #f97316;
+        background: var(--btn-card-bg);
+        padding: 0.25rem 0.5rem;
+        border-radius: var(--rounded-sm);
+        border: 1px solid var(--c-border);
       }
     }
     
