@@ -16,7 +16,7 @@ export default {
         // 示例：外部链接，isExternal: true
             { id: 8, title: 'TG-Memos', path: 'https://tg.mcyzsx.top', icon: 'telegram', isExternal: true },
             { id: 9, title: 'Mastodon', path: 'https://m.mcyzsx.top', icon: 'mastodon', isExternal: true },
-        { id: 10, title: 'Notion-Nav', path: 'https://nav.zsxoder.top', icon: 'nav', isExternal: true },
+        { id: 10, title: 'Notion-Nav', path: 'https://nav.zsxcoder.top', icon: 'nav', isExternal: true },
       ],
       routerChanged: true,
       theme: 'light',
